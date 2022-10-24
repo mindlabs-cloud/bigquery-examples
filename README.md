@@ -86,7 +86,7 @@ stackoverflow-ai/
 ├── definitions/
 ├   ├── reporting/
 ├   ├── sources/
-├   ├── testing/
+├   ├── staging/
 ├── environments.json
 ├── schedules.json
 └── package.json
@@ -135,7 +135,7 @@ stackoverflow-ai/
       "gitRef": "master"
     },
     {
-      "name": "testing",
+      "name": "staging",
       "configOverride": {},
       "gitRef": "master"
     },

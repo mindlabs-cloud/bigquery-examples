@@ -1,7 +1,7 @@
 config {
   type: "view",
   schema: "staging",
-  description: "Cleaned version of stackoverflow.posts_questions"
+  description: "A cleaned version of the stackoverflow.posts_questions table"
 }
 
 SELECT
@@ -15,5 +15,5 @@ SELECT
 FROM
   ${ref("posts_questions")}
 WHERE
-  -- limit to recent data for the purposes of this demo project
+  -- limits records to recent data for the purposes of this demo project
   creation_date >= timestamp("2019-01-01")

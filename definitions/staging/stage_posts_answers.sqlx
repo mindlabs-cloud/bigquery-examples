@@ -1,7 +1,7 @@
 config {
   type: "view",
-  schema: "testing",
-  description: "Cleaned version of stackoverflow.posts_answers"
+  schema: "staging",
+  description: "A cleaned version of sources.stackoverflow.posts_answers table"
 }
 
 SELECT

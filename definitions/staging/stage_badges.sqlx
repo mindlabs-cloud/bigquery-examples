@@ -1,7 +1,7 @@
 config {
   type: "view",
   schema: "staging",
-  description: "Cleaned version of stackoverflow.badges"
+  description: "A cleaned version of sources.stackoverflow.badges table"
 }
 
 SELECT

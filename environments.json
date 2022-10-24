@@ -11,7 +11,7 @@
       "gitRef": "master"
     },
     {
-      "name": "testing",
+      "name": "staging",
       "configOverride": {},
       "gitRef": "master"
     }
